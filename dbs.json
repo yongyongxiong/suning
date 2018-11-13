@@ -1,0 +1,502 @@
+{
+  "roleListDbs": [
+    {
+      "number": "M2203111",
+      "role": "管理员",
+      "phone": "18888881888",
+      "sayWords": "这里是超级管理员",
+      "roleTime": "2016-08-09 10:18:08",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2203199",
+      "role": "产品经理",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2203199",
+      "role": "产品总监",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2203299",
+      "role": "销售总监",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "小王",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "小熊",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "小史",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "小明",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "小鹏",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "小高",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "小张",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "大春子",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "大孙",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "糖糖",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "亚丽",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "晓月",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "铭记",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "于心",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "大白杨",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "宋铁",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "邱盼盼",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "李哲娜",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "王梅松",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "郭宏宇",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "张菁菁",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "包晓华",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "张彩虹",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "杨蓉",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "斯丽萨",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "张志鹏",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "明智",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "刘利",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "马伟",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "腾腾",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "项宏周",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "周人",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "曲美",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "松田",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "王力宏",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "周杰伦",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "张靓颖",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "张惠妹",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "蔡依林",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "甘甜甜",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "马威",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "照伟",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205260",
+      "role": "冰雪",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204209",
+      "role": "聪明",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205500",
+      "role": "杨紫",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205268",
+      "role": "李云龙",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204709",
+      "role": "李政委",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205533",
+      "role": "唐果",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205558",
+      "role": "糊涂晕",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2204219",
+      "role": "郑正版",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    },
+    {
+      "number": "M2205369",
+      "role": "张邦邦",
+      "phone": "18888881888",
+      "sayWords": "",
+      "roleTime": "2017-01-01 11:11:10",
+      "roleEndTime": "2018-11-09 10:18:08",
+      "states": "有效"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

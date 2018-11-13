@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>users</title>
+    <link rel="stylesheet" href="static/laydate/theme/default/laydate.css"/>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script src="static/laydate/laydate.js"></script>
+<script>
+  // goPageFunc(1,3)
+  function goPageFunc(pageNum,perRowNum){
+    /**
+     * pageNum 页数
+     * perRowNum 每页显示的行数
+     * rowNum 总行数
+     * totalPageNum 总页数
+     * **/
+    var listDt = document.getElementById("listDt");
+    var rowNum = listDt.rows.length;
+    var totalPageNum = 0;
+    var psize = perRowNum;//每页显示的行数
+    //总共分为几页
+    if(rowNum/psize>parseInt(rowNum/psize)){
+      totalPageNum = parseInt(rowNum/psize)+1;
+    }else {
+      totalPageNum = parseInt(rowNum/psize);
+    }
+    var curentPageNum = pageNum;
+    var startRow = (curentPageNum-1)*psize+1;
+    var endRow = curentPageNum*psize;
+    endRow = (endRow > rowNum)?rowNum : endRow;
+    console.log(endRow);
+    //遍历显示数据实现分页
+    for(var i=1;i<(rowNum+1);i++){
+      var irow = (listDt.rows)[i-1];//当前页面某行
+      if(i>=startRow && i<=endRow){
+        irow.style.display = "block";
+      }else{
+        irow.style.display = "none";
+      }
+    }
+    var tempStrOne = rowNum;
+    var tempStrTwo = totalPageNum;
+    var tempStrT =curentPageNum ;
+    var tempStr = "";
+    if(curentPageNum>1){
+      // $(".firstPage").click=function(){
+      //   goPageFunc(1,perRowNum);
+      // }
+      // $(".prevPage").click=function(){
+      // //   goPageFunc((perRowNum-1),perRowNum);
+      // // }
+       tempStr += "<a href=\"#\" onClick=\"goPageFunc("+(1)+","+perRowNum+")\">首页</a>";
+       tempStr += "<a href=\"#\" onClick=\"goPageFunc("+(curentPageNum-1)+","+perRowNum+")\"><上一页</a>"
+    }else{
+      //return;
+      tempStr += "首页";
+      tempStr += "<上一页";
+    }
+     if(curentPageNum<totalPageNum){
+    //   $(".nextPage").click=function(){
+    //     goPageFunc((curentPageNum+1),perRowNum);
+    //   }
+    //   $(".lastPage").click=function(){
+    //   //   goPageFunc(totalPageNum,perRowNum);
+    //   // }
+       tempStr += "<a href=\"#\" onClick=\"goPageFunc("+(curentPageNum+1)+","+perRowNum+")\">下一页></a>";
+       tempStr += "<a href=\"#\" onClick=\"goPageFunc("+(totalPageNum)+","+perRowNum+")\">尾页</a>";
+    }else{
+      //return;
+      tempStr += "下一页>";
+      tempStr += "尾页";
+    }
+    document.getElementById("dataIdOne").innerHTML = tempStrOne;
+    document.getElementById("dataIdT").innerHTML = tempStrT;
+    document.getElementById("dataIdTwo").innerHTML = tempStrTwo;
+    document.getElementById("barcon").innerHTML = tempStr;
+  }
+  window.onload = function () {
+    // allCheckFunc();
+    // perCheckFunc();
+     goPageFunc(1,3);
+  }
+</script>
